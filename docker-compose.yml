@@ -1,7 +1,7 @@
 version: '3.1'
 services:
   springboot:
-    image: sanjibd/maven-web-app:BUILD_TAG
+    image: sanjibd/maven-web-app:1
     restart: always
     ports:
     - 9090:8080
