@@ -1,9 +1,10 @@
 services:
   springboot:
-    image: sanjibd/maven-web-app:BUILD_TAG
+    image: sanjibd/maven-web-application:BUIL_TAG
+    restart: always
     ports:
     - 9090:8080
     networks:
     - mavenappbridge
 networks:
-  mavenappbridge:bridge
+  mavenappbridge:
