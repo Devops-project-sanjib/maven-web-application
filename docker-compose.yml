@@ -1,8 +1,6 @@
-
 services:
   springboot:
     image: sanjibd/maven-web-app:BUILD_TAG
-    
     ports:
     - 9090:8080
     networks:
