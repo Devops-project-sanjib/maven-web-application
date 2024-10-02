@@ -7,4 +7,4 @@ services:
     networks:
     - mavenappbridge
 networks:
-  mavenappbridge:
+  mavenappbridge: bridge
